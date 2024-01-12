@@ -3,11 +3,11 @@ Crosses are marked with "X", zeros with "O", unfilled fields are marked as "-".
 It is possible to put "X" or "O" only instead of "-".
 It is guaranteed that the playing field is set correctly and that such a game situation can actually occur while playing.
 
-The programme must determine the best move, taking into account whose turn it is now and display the board with the best move made. 
-Also in case of a win or draw it outputs "X Win", "O Win" or "Draw".
+The program must determine the best move, taking into account whose turn it is now and display the board with the best move made. 
+In case of a win or draw it outputs "X Win", "O Win" or "Draw".
 
 Input:
-test.txt*.
+test.txt
 
 Output:
 Enter the name of the file that contains the field: 
@@ -15,7 +15,7 @@ X-O
 OXX
 --O
 
-* Note on the contents of the file:
+* Note on the contents of the file test.txt:
 X-O
 OXX
 ---
